@@ -25,7 +25,10 @@ SECRET_KEY = "django-insecure-bim=_!4q((7#^+v5(^hsu*(_$xx94!cou^ryb@u7zzv%kj0iyl
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "apschool.azurewebsites.net",
+    "127.0.0.1"
+]
 
 
 # Application definition
