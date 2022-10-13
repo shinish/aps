@@ -21,7 +21,7 @@ environ.Env.read_env()
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
-if socket.gethostname() == "Shinishs-MacBook-Pro.local":
+if socket.gethostname() == "Win11":
     ALLOWED_HOSTS = ["localhost", "127.0.0.1", ]
     SECRET_KEY = env('SECRET_KEY')
     DEBUG = True
@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "webapp.apps.WebappConfig"
+    "webapp.apps.WebappConfig",
+    "crispy_forms"
 ]
 
 MIDDLEWARE = [
@@ -72,6 +73,7 @@ TEMPLATES = [
         },
     },
 ]
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 WSGI_APPLICATION = "aps.wsgi.application"
 

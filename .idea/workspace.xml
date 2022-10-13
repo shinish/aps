@@ -5,9 +5,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df1a82f9-62a9-4797-9f7d-8b6caad7ba27" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/webapp/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/img/image-507-11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/img/image1345_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/img/image5555_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/img/image_1111_2 (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/img/image_1234_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/img/image_1234_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/img/image_1345_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/img/image_2191_14.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/img/image_348_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/img/image_4444_1 (5).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/img/image_5059_15.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/img/image_507_11.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/img/image_5814_3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/img/image_6666_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/img/image_6984_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/img/image_6984_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/img/image_7498_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/img/image_7498_9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/img/image_7498_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/img/image_8124_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/img/image_8476_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/img/image_8476_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/img/image_8750_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/img/image_8856_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/img/image_8888_1 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/img/image_8888_1 (6).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/img/image_8888_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/img/image_9076_4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/img/image_9747_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/img/image_9986_16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/img/mission.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/img/vision.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/static/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/templates/index1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/APS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/APS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aps/.env" beforeDir="false" afterPath="$PROJECT_DIR$/aps/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aps/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/aps/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/css/bootstrap.min.c95604d65a79.css" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/css/bootstrap.min.c95604d65a79.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/css/style.a201d83df487.css" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/css/style.a201d83df487.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/static/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/static/js/jquery-3.6.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/static/js/jquery-3.6.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/static/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/static/js/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/static/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +77,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -46,15 +105,17 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/shinish/PycharmProjects/DjangoProjects/aps/webapp/static/js&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/keerthana/PycharmProjects/apsgit/webapp/static/img&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\keerthana\PycharmProjects\apsgit\webapp\static\img" />
+      <recent name="C:\Users\keerthana\PycharmProjects\apsgit\webapp\static\css" />
+      <recent name="C:\Users\keerthana\PycharmProjects\apsgit\webapp\static\js" />
       <recent name="$PROJECT_DIR$/webapp/static/js" />
       <recent name="$PROJECT_DIR$/webapp/templates" />
-      <recent name="$PROJECT_DIR$/aps/static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/webapp/static" />
@@ -88,5 +149,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/aps/settings.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
