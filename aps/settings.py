@@ -21,7 +21,7 @@ environ.Env.read_env()
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
-if socket.gethostname() == "Win11":
+if socket.gethostname() == "Shinishs-MacBook-Pro.local":
     ALLOWED_HOSTS = ["localhost", "127.0.0.1", ]
     SECRET_KEY = env('SECRET_KEY')
     DEBUG = True
