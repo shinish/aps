@@ -222,7 +222,7 @@
 
         <section class="my-5">
 
-                <h3 class="my-5 down-content text-center">Our Location</h3>
+                <h3 class="my-5 text-center">Our Location</h3>
 
         <iframe src= "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31543.11640228345!2d76.67122907902386!3d8.796446443507492!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05e50c0853bf0f%3A0xb0362a1ee9435b19!2sKalakkode%2C+Kerala%2C+India!5e0!3m2!1sen!2sus!4v1512982736443" width="100%" height="630" frameborder="1" style="border:0" allowfullscreen> loading="lazy"></iframe>
 
@@ -233,42 +233,45 @@
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 <!-- Contact form-->
-<section class="p-3  bg-info text-white">
+<section class="p-3  bg-info text-dark">
       <div class="container-xxl py-5">
         <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 300px;">
-                    <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-50" src="{% static 'img/image_8476_8.jpg'%}" alt="" style="object-fit: cover;">
+
+            <div class="row ">
+                 <div class="col-lg-12" style="min-height: 100px;">
+                 <h4 class="down-content text-center">Connect with us </h4>
+                </div>
+                <div class="col-lg-6" style="min-height: 300px;">
+                    <div class="position-relative">
+                        <img class="img-fluid position-absolute" src="{% static 'img/image_8476_8.jpg'%}" alt="" >
 
                     </div>
                 </div>
-            <div class="col-md-6 col-sm-6 my-5">
-                <h4>Connect with us </h4>
+            <div class="col-md-6 col-sm-6">
 
-             <div class="my-5">
-                 <form action="" method="post" class="row g-3">
-                  <div class="row">
-                       <div class="col-md-6 col-sm-6">
+             <div>
+                 <form action="" method="post" >
+                  <div class="row p-3">
+                       <div class="col-md-6 col-sm-6 p-1">
                           {{ form1.first_name | as_crispy_field}}
                       </div>
-                      <div class="col-md-6 col-sm-6">
+                      <div class="col-md-6 col-sm-6 p-1">
                         {{ form1.last_name | as_crispy_field}}
                       </div>
                   </div>
-            <div class="row">
-                  <div class="col-md-6 col-sm-6">
+                 <div class="row p-3">
+                  <div class="col-md-6 col-sm-6 p-1">
                           {{ form1.email | as_crispy_field}}
                 </div>
-                 <div class="col-md-6 col-sm-6">
+                 <div class="col-md-6 col-sm-6 p-1">
                     {{ form1.phone_number | as_crispy_field}}
                 </div>
-                 <div class="col-sm-12 mb-3">
+                 <div class="col-sm-12 mb-3 my-3 p-1">
                     {{ form1.message | as_crispy_field}}
                 </div>
             </div>
-                <div>
-                    <input type="submit" value="Submit">
+                <div class="row p-3">
+                    <input type="submit" value="Submit" class="btn btn-dark">
             </div>
 
               {% csrf_token %}

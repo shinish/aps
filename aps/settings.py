@@ -21,7 +21,7 @@ environ.Env.read_env()
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
-if socket.gethostname() == "Shinishs-MacBook-Pro.local":
+if socket.gethostname() == "Shinish-MacBook-Pro.local":
     ALLOWED_HOSTS = ["localhost", "127.0.0.1", ]
     SECRET_KEY = env('SECRET_KEY')
     DEBUG = True
@@ -115,9 +115,8 @@ USE_TZ = True
 
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 STATIC_URL = '/static/'
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-
-# Default primary key field type
-# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
-
+# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+STATICFILES_STORAGE = "whitenoise.storage.CompressedStaticFilesStorage"
+WHITENOISE_AUTOREFRESH = True
+# STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
